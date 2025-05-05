@@ -43,7 +43,7 @@
     function animate() {
       requestAnimationFrame(animate);
       if (model) {
-        model.rotation.z += 0.01;
+        model.rotation.z += 0.01; // fait tourner le modèle
       }
       renderer.render(scene, camera);
     }
